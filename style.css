@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+*,
+*:before,
+after{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color:#240A34 ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Fredoka", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffff;
+}
+h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFBC9B;
+    padding: 2rem;
+    color: #240A34;
+    text-transform: capitalize;
+}
+.rangers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+gap: 3.5rem;
+}
+
+.detal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: .5rem;
+}
+.cover{
+    width: 60%;
+    border-radius: 50%;
+}
+.title, .artist{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.duration, .currenttime, .next, .prev, .pause{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
